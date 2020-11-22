@@ -1,0 +1,84 @@
+.descp1-img{
+    width:100%;
+}
+.descp-name{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:600;
+    font-size: 1.2rem;
+}
+.descp-details{
+    font-size: 0.9rem;
+    color:grey;
+    width:100%;
+}
+.desc-details{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: bold;
+}
+.detail-clock{
+    color:#0AC92B;
+    font-size: 1.1rem;
+    padding-right:0.3rem;
+}
+.desc-details{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 1rem;
+}
+.details-incer{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.inger-img{
+    width: 100%;
+}
+.win-descp{
+    display: none;
+}
+.desc-star{
+    color: gold;
+}
+.decsp-inger{
+    width:100%;
+    color:grey;
+    font-size: 0.9rem;
+    text-transform:capitalize;
+}
+@media only screen and (min-width :768px)
+{
+.win-descp{
+    display: block;
+}
+.mob-descp{
+    display: none;
+}
+.nav-posn1{
+    font-size: 1.8rem;
+}
+.descp-name{
+    font-size: 1.4rem;
+}
+.detail-clock{
+    font-size: 1.3rem;
+}
+.descp-clock{
+    font-size: 1.3rem;
+}
+.detail-time{
+    font-size: 1.3rem;
+    color:black;
+}
+.desc-details{
+    font-size: 1.3rem;
+}
+.descp-details{
+    font-size: 1.1rem;
+}
+.details-incer{
+    font-size: 1.3rem;
+}
+.decsp-inger{
+    font-size: 1.1rem;
+   
+}
+}

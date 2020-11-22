@@ -35,6 +35,7 @@ router.post('/getProductByCategory',async(req,res)=> {
 
 router.post('/getSingleProduct',async (req, res) => {
     try{
+        // console.log(req);
         let SingleProduct  = await Product.getSingleProduct(req,res);
         res.status(200).json({SingleProduct});
     }catch(err){

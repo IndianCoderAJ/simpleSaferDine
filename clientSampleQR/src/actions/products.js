@@ -32,15 +32,16 @@ export const setProductLoading = () => {
     }
 }
 
-export const getSingleProduct = (ProductID) => dispatch => {  
+export const getSingleProduct = (ProductID,history) => dispatch => {  
     dispatch(setProductLoading());
     axios
-    .post(`${process.env.REACT_APP_NODE_API}/customer/getSingleProduct`, ProductID)
+    .post(`${process.env.REACT_APP_NODE_API}/customer/getSingleProduct`, {ProductID})
     .then(res=>{
         dispatch({
             type:GET_PRODUCTSINGLE,
-            payload:res.data.product
+            payload:res.data.SingleProduct
         })
+        history.push('/Productdetails');
     })
     .catch(err => {
         dispatch({

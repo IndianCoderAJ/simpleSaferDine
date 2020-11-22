@@ -7,7 +7,7 @@ const http = require('http');
 const app = express();
 
 // db connections
-const db = mongoose.connect('mongodb://localhost:27017/simpleQR', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+const db = mongoose.connect('mongodb+srv://ak:123@cluster0.rh7cv.mongodb.net/simpleQR?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
     .then(() => {
         console.log('db is connected....');
     })

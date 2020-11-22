@@ -9,7 +9,8 @@ const ProductSchema = new mongoose.Schema({
     Rating:{type:Number},
     Veg:{type:Boolean,default:true},
     Date: { type: Date, default: Date.now },
-    image:{type:String}
+    image:{type:String},
+    Ingredients:{type:String}
 });
 
 const Product = mongoose.model('Product', ProductSchema);

@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "5fb9f2797f344405b7b01199"
+  },
+  "categoryName": "test1",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+},{
+  "_id": {
+    "$oid": "5fba12d1ff904307a8db36e2"
+  },
+  "categoryName": "test2",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+},{
+  "_id": {
+    "$oid": "5fba12daff904307a8db36e3"
+  },
+  "categoryName": "test3",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+},{
+  "_id": {
+    "$oid": "5fba12dfff904307a8db36e4"
+  },
+  "categoryName": "test4",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+},{
+  "_id": {
+    "$oid": "5fba12e4ff904307a8db36e5"
+  },
+  "categoryName": "test6",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+},{
+  "_id": {
+    "$oid": "5fba12f1ff904307a8db36e6"
+  },
+  "categoryName": "test7",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+},{
+  "_id": {
+    "$oid": "5fba12faff904307a8db36e7"
+  },
+  "categoryName": "test8",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+},{
+  "_id": {
+    "$oid": "5fba1302ff904307a8db36e8"
+  },
+  "categoryName": "test9",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+},{
+  "_id": {
+    "$oid": "5fba1308ff904307a8db36e9"
+  },
+  "categoryName": "test10",
+  "isAvailable": "Yes",
+  "image": "/public/images/c7.jpg"
+}]

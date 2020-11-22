@@ -26,7 +26,7 @@ product.getProductByCategory = async(req,res) => {
 
 product.getSingleProduct = async(req,res)=> {
     try{
-
+          console.log(req.body);
         let product = await Product.find({_id:req.body.ProductID});
         return product;
 

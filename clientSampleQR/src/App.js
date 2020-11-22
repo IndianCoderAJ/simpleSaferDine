@@ -10,6 +10,7 @@ import  store  from './store';
 
 import Scategory from'./components/Scategory';
 import Scatlist from'./components/Scatlist';
+import SimpleDescp from './components/SimpleDescp';
 import SafersimpleNavbar from'./components/SafersimpleNavbar';
 
 // import Modal from './components/dashboard/Modal';
@@ -31,6 +32,7 @@ function App() {
     <Route exact path="/" component = { Scategory }/>
     <Route exact path="/scatlist" component = { Scatlist }/>
     <Route exact path="/safersimpleNavbar" component ={ SafersimpleNavbar}/>
+    <Route exact path="/Productdetails"component = {SimpleDescp} />
     </Router>
     </Provider>
   );
