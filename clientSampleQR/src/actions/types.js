@@ -1,0 +1,10 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const GET_CATEGORY = "GET_CATEGORY";
+export const CATEGORY_lOADING = "CATEGORY_lOADING";
+
+export const GET_PRODUCT = "GET_PRODUCT";
+export const PRODUCT_lOADING = "PRODUCT_lOADING";
+export const GET_PRODUCTSINGLE = "GET_PRODUCTSINGLE";
+
+export const ERRORNULL = "ERRORNULL";
+export const RESET_STORE = "RESET_STORE";

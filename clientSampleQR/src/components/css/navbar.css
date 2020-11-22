@@ -1,0 +1,25 @@
+
+.nav-color {
+  background-color: white;
+}
+.input-recipes {
+ margin:20px;
+}
+.navbar-logo {
+  width: 40%;
+}
+.main-nav-conatiner {
+  width: 100%;
+  margin: auto;
+  max-width: 650px;
+}
+
+.search-bar-home {
+  width: 90%;
+  margin: auto;
+  max-width: 650px;
+}
+.navbar-toggler:hover {
+  background-color: white;
+
+}

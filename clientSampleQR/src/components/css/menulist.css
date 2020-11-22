@@ -1,0 +1,91 @@
+.menulist-main {
+    width: 90%;
+    margin: 3% auto;
+    max-width: 650px;
+    border: 1px solid rgb(253, 251, 251);
+    display: flex;
+}
+.product-img {
+    width: 40%;
+}
+.product-info-name {
+  margin: 5%;
+/* border: 2px solid red; */
+}
+
+#price-info {
+    color: red;
+}
+.btn-add {
+    margin-left: 30%;
+}
+.product-inf {
+    width: 70%;
+
+}
+
+/* quantity
+ */
+
+ /* -- quantity box -- */
+
+.quantity {
+    margin-top: 45px;
+    }
+   
+   .quantity .input-text.qty {
+    height:70px;
+    width: 20%;
+    font-size: large;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+   }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    height:70px;
+    width: 20%;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    height:70px;
+    width: 20%;
+    max-width: 500px;
+    background-color: green;
+    color: #efefef;
+    box-shadow: none;
+    border: none;
+    cursor:pointer;}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: green; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+   

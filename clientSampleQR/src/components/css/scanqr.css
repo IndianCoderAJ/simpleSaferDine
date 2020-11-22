@@ -1,0 +1,44 @@
+.scan-main{
+	background-image: url("../images/food4.jpg");
+	background-size: cover;
+	background-position:41% 41%; 
+}
+.scan-over{
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(2px); 
+  height: 100vh;
+	width: 100%;
+}
+.scan-height{
+	height: 100vh;
+}
+.scan-box{
+	width: 330px;
+	height: 500px;
+	background: white;
+	padding: 20px;
+	outline:2px solid #0AC92B;
+	outline-offset: -10px;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+.scan-menu{
+	color:#0AC92B;
+	font-family: "Philosopher", sans-serif;
+}
+.scan-code{
+	background: black;
+	width:200px;
+	height: 200px;
+}
+.scan-text{
+	color: black;
+	width: 71%;
+	font-weight:530;
+	font-family: "Poppins", Arial, sans-serif;
+}
+@media only screen and (min-width :768px)
+{
+.scan-main{
+	background-position:0% 25%; 
+}
+}

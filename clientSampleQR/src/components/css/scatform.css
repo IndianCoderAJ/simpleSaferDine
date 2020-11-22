@@ -1,0 +1,130 @@
+.scatform-one{
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left:20px;
+	padding-right:20px;
+	/* background-image:url("../images/food3.jpg");
+	background-size: cover;
+    background-position: 60% 60%; */
+    background: linear-gradient(to bottom,#ff105f,#ffad06);
+}
+.scatform-main{
+	background: white;
+	width: 500px;
+	border-radius: 10px;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+.scatform-main .scatform-head{
+	color:#ff105f;
+	font-size: 1.9rem;
+	text-align:left;
+	/* width: 70%; */
+	/* padding: 32px 0px; */
+	font-family: "Philosopher", sans-serif;
+	padding-top: 33px;
+}
+.scatform-main form{
+	text-align: left;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+form .text-field1{
+	position: relative;
+	border-bottom:2px solid  silver;
+	margin:30px 0; 
+}
+.text-field1 input{
+	width:100%;
+	padding: 0 15px;
+	height: 40px;
+	font-size: 16px;
+	color: black;
+	border:none;
+	background: none;
+	outline: none;
+}
+.text-field1 label{
+	position: absolute;
+	top: 50%;
+	left:5px;
+	color:silver;
+	transform: translateY(-50%);
+	font-size:14px;
+	pointer-events: none;
+	transition: .5s;
+	letter-spacing:0.7px;
+}
+.text-field1 span::before{
+	content: '';
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width:0%;
+	height: 2px;
+	background:#0AC92B;
+	transition: .7s;
+}
+.text-field1 input:focus ~ label,
+.text-field1 input:valid ~ label{
+	top:-5px;
+	color:#0AC92B;
+}
+.text-field1 input:focus ~ span:before,
+.text-field1 input:valid ~ span:before 
+{
+	width: 100%;
+}
+.btnotp1 {
+	width: 200px;
+	padding-top: 12px;
+	padding-bottom:12px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 40px;
+	font-size: 15px;
+    margin-top:20px;
+	cursor: pointer;
+	display: inline-block;
+  }
+  .button-o1 {
+	color: #fff;
+	border: 3px solid #0AC92B;
+	background: linear-gradient(30deg, #0AC92B 50%, transparent 50%);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: 0%;
+	transition: background 350ms ease-in-out;
+  }
+  .button-o1:hover {
+	background-position: 100%;
+	color:  #0AC92B;
+  }
+  @media only screen and (min-width :768px)
+  {
+  .scatform-main .scatform-head{
+      text-align: center;
+      font-size: 2.2rem;
+  }
+  .scatform-main form{
+      text-align: center;
+      padding: 0 40px;
+      box-sizing: border-box;
+  }
+  .scatform-one{
+      padding-left:0px;
+      padding-right:0px;
+  }
+  .btnotp1{
+      padding-top: 15px;
+      padding-bottom:15px;
+      font-size: 18px;
+  }
+  .text-field1 label{
+      font-size: 18px;
+  }
+  }

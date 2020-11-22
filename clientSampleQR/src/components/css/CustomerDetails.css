@@ -1,0 +1,41 @@
+.details-main {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    max-width: 650px;
+    
+}
+
+.signup-form {
+    width: 80%;
+    margin: auto;
+} 
+/* .margin {
+    width: 90%;
+    margin: auto;
+    border: 5px solid green;
+} */
+/* input { 
+    color: none; 
+    outline: none;
+    width: 100%;
+    max-width: 450px;
+    padding: 0.6em;
+    border-radius: 10px ;
+    border: 1px solid green
+    
+  }
+input:focus {background:#fff; border:1px solid green; color:none; outline: none;}
+     */
+/* .form-group {
+    margin-bottom: 30px;
+} */
+.details-main h1 {
+    font-size: 2rem;
+    padding: 0.5em;
+
+}
+
+/* button {
+    margin-bottom: 1em;
+} */

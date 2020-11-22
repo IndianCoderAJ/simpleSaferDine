@@ -1,0 +1,46 @@
+.cuisines-bor{
+	border-top: solid 1px #D0D0D0;
+	width: 100%;
+}
+.cat-cuisines{
+	font-family: "Philosopher", sans-serif;
+	font-size: 1.5rem;
+}
+.cat-text{
+	font-family: 'Roboto Condensed', sans-serif;
+	  position: absolute;
+	  font-size: 1.2rem;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.cat-over{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+}
+.scat1-img{
+	width: 100%;
+}
+.cart-color{
+	color: #0AC92B;
+}
+/* .scat-rel{
+	position: relative;
+}
+.scat-abs{
+	bottom: 96%;
+    position: absolute;
+    left: 92%;
+} */
+@media only screen and (min-width :768px)
+{
+.cat-cuisines{
+    font-size:2rem;
+}
+.cat-widthsome{
+	width: 90%;
+}
+.cat-text{
+	font-size: 1.6rem;
+}	
+}
