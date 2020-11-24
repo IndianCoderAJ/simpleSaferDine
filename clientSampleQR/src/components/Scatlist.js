@@ -46,15 +46,15 @@ export class Scatlist extends Component {
                     <div class="col-7 col-md-3 pl-0 pr-0">
                         <img className="pureveg-icon" src={"images/pureveg2.png"}/>
                          <h5 class="pt-1 cold-coffee">{item.ProductName}</h5>
-                         <p class="coffee-price">&#8377;{item.Price}</p>
+                         <p class="coffee-price mb-0 pb-1">&#8377;{item.Price}</p>
                     </div>
 
-                    <div class="col-5 col-md-3 pl-0 pr-0">
-                        <img className="coffee-img"  src={`${process.env.REACT_APP_NODE_API}${item.image}`}/>
+                    <div class="col-5 col-md-3 pt-1 pl-0 pr-0">
+                        <img className="coffee-img "  src={`${process.env.REACT_APP_NODE_API}${item.image}`}/>
                     </div>
                 </div>
 
-                <div class="catlist1-bor pt-3"></div>
+                <div class="catlist1-bor"></div>
                 </div>
                 )
 
@@ -66,9 +66,12 @@ export class Scatlist extends Component {
 
                 <React.Fragment>
                     <CustomeNavbar/>
-                    <div className="container-fluid py-2 scategory-list">
-                    <h5 className="text-center cat-cuisines1 mx-auto pb-1 mb-0 pl-4">Beverages</h5>
-                        <div className="py-1 cuisines2-bor"></div>
+                    <div className="container-fluid py-1 scategory-list">
+                    <div className="cat-cusinerel1">
+                    <h5 className="cat-cuisines1 pb-1">Beverage</h5>
+                    </div>
+                    
+                        <div className="pt-1 cuisines2-bor"></div>
                        {ProductsContent}
                 </div>
                 </React.Fragment>

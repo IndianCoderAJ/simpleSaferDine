@@ -5,6 +5,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:600;
     font-size: 1.2rem;
+    text-transform: capitalize;
 }
 .descp-details{
     font-size: 0.9rem;
@@ -14,6 +15,7 @@
 .desc-details{
     font-family: "Poppins", Arial, sans-serif;
     font-weight: bold;
+    text-transform: capitalize;
 }
 .detail-clock{
     color:#0AC92B;
@@ -28,6 +30,7 @@
     font-family: "Poppins", Arial, sans-serif;
     font-size: 1rem;
     font-weight: bold;
+    text-transform: capitalize;
 }
 .inger-img{
     width: 100%;

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { Button,Navbar,Nav,NavDropdown,Form,FormControl } from 'react-bootstrap';
-
+import'./css/customernav.css';
 class CustomeNavbar extends Component {
   render() {
     return (
-         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="/">SaferDine</Navbar.Brand>
+         <Navbar className="ml-auto nav-backg"  collapseOnSelect expand="lg">
+  <Navbar.Brand href="/"><i class="fas fa-angle-left back-btn"></i></Navbar.Brand>
+  {/* <Navbar.Brand href="/" className="mx-auto nav-cusine"> Cusines</Navbar.Brand> */}
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
+    <Nav className="mr-auto nav-backg1">
       <Nav.Link href="/">Category</Nav.Link>
       <Nav.Link href="/scatlist">Menu</Nav.Link>
       {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">

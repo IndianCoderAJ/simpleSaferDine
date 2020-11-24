@@ -18,7 +18,7 @@ export class SimpleDescp extends Component {
                 <React.Fragment>
                     <CustomeNavbar />
                     <div className="mob-descp">
-                    <div className="container-fluid py-2 simple-descp">
+                    <div className="container-fluid simple-descp">
                     {/* <h5 className="text-center  mx-auto pb-1 mb-0 pl-4">Beverages</h5> */}
                         {/* <div className="py-1 cuisines2-bor"></div> */}
                     </div>
