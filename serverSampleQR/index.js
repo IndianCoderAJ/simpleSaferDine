@@ -16,6 +16,15 @@ const db = mongoose.connect('mongodb+srv://ak:123@cluster0.rh7cv.mongodb.net/sim
 });
 
 
+// db connections
+// const db = mongoose.connect('mongodb://localhost:27017/simpleQR', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+//     .then(() => {
+//         console.log('db is connected....');
+//     })
+//     .catch(err => {
+//         console.log('db is not connected', +err);
+// });
+
 // CORS Request
 var allowCrossDomain = function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*"); // allow requests from any other server
