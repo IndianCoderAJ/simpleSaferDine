@@ -1,13 +1,23 @@
+.scategory{
+	padding-top:4.5rem;
+
+}
 .cuisines-bor{
 	border-top: solid 1px #D0D0D0;
 	width: 100%;
+	
 }
 .cat-cuisines{
 	font-family: "Philosopher", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	text-transform: capitalize;
 	text-align: center;
-	margin-bottom: 0.9rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link :hover{
+    color:#0AC92B;
 }
 /* .cat-cusinerel{
 	position: relative;

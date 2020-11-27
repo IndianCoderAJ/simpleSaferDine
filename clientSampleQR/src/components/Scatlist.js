@@ -66,7 +66,7 @@ export class Scatlist extends Component {
 
                 <React.Fragment>
                     <CustomeNavbar/>
-                    <div className="container-fluid py-1 scategory-list">
+                    <div className="container-fluid scategory-list">
                     <div className="cat-cusinerel1">
                     <h5 className="cat-cuisines1 pb-1">Beverage</h5>
                     </div>

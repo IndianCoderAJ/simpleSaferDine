@@ -49,9 +49,9 @@ export class Scategory extends Component {
         return (
                 <React.Fragment>
                     <CustomeNavbar/>
-                <div className="container-fluid pt-1 scategory">
+                <div className="container-fluid scategory">
                     <div className="cat-cusinerel">
-                        <h5 className="cat-cuisines mx-auto pb-1">Cuisines</h5>
+                        <h5 className="cat-cuisines mx-auto pt-1">Cuisines</h5>
                     </div>
                     
                     <div className="py-1 cuisines-bor"></div>

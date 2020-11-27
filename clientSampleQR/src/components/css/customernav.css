@@ -1,5 +1,18 @@
 .nav-backg{
-    background:white;
+    background:black;
+    /* background: rgba(0,0,0,0.8); */
+}
+.logosafe{
+    color: #0AC92B;
+    font-family: 'Lobster', cursive;
+    font-size: 1.4rem;
+    /* text-shadow: 1px 1px white; */
+}
+.nav-name{
+    color: white;
+}
+.navbar-light .navbar-brand {
+   color:#0AC92B;
 }
 .back-btn{
     color: #0AC92B;

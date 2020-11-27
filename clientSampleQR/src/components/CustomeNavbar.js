@@ -4,14 +4,14 @@ import'./css/customernav.css';
 class CustomeNavbar extends Component {
   render() {
     return (
-         <Navbar className="ml-auto nav-backg"  collapseOnSelect expand="lg">
-  <Navbar.Brand href="/"><i class="fas fa-angle-left back-btn"></i></Navbar.Brand>
-  {/* <Navbar.Brand href="/" className="mx-auto nav-cusine"> Cusines</Navbar.Brand> */}
+         <Navbar className="ml-auto fixed-top nav-backg"  collapseOnSelect expand="lg">
+  <Navbar.Brand className="logosafe" href="/">SaferDine</Navbar.Brand>
+  {/* <Navbar.Brand href="/" className="mx-auto nav-cusine">SaferDine</Navbar.Brand> */}
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto nav-backg1">
-      <Nav.Link href="/">Category</Nav.Link>
-      <Nav.Link href="/scatlist">Menu</Nav.Link>
+      <Nav.Link className="nav-name" href="/">Category</Nav.Link>
+      <Nav.Link className="nav-name" href="/scatlist">Menu</Nav.Link>
       {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
