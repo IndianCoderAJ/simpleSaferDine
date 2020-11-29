@@ -7,12 +7,31 @@ import'./css/simpledescp.css';
 import CustomeNavbar from './CustomeNavbar';
 
 export class SimpleDescp extends Component {
-    static propTypes = {
+    constructor(props) {
+        super(props);
+        // this.state = { 
+        //     categoryList: null,
+        //     pageNumber: 1,
+        // }
 
+        //this.onClick = this.onClick.bind(this); 
     }
-
+ 
+    componentDidMount() {
+        if(this.props.ProductData.singleProduct === null) {
+            this.props.history.push('/scatlist');
+         }
+      } 
+  
     render() {
-        let product = this.props.ProductData.singleProduct[0];
+        let loading = this.props.ProductData.loading;
+        let product = this.props.ProductData.singleProduct;
+        if(product === null || loading ){
+            product = <Spinercust />
+        } else { 
+            product = this.props.ProductData.singleProduct[0];
+         }
+
         return (
             <div>
                 <React.Fragment>
@@ -28,7 +47,7 @@ export class SimpleDescp extends Component {
                     <div className="pl-3 pr-3 pt-3">
                         <h5 className="pb-3 mb-0 descp-name">
                             {product.ProductName}
-        <span className="float-right">&#x20B9;{product.Price}</span>
+                           <span className="float-right">&#x20B9;{product.Price}</span>
                         </h5>
                         <div className="row mx-0">
                             <div className="col-6 pl-0">

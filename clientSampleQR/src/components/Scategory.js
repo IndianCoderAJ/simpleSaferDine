@@ -20,8 +20,7 @@ export class Scategory extends Component {
       } 
 
       getProductDetailsByCategory(category){
-          console.log(category._id);
-        this.props.getProductCategory(1,3,category._id,this.props.history);
+        this.props.getProductCategory(1,3,category,this.props.history);
       }  
 
     render() {

@@ -3,7 +3,8 @@ import {GET_PRODUCT,PRODUCT_lOADING,GET_PRODUCTSINGLE} from "../actions/types";
 const initialState = {
     products:null,
     singleProduct:null,
-    loading:false
+    loading:false,
+    catgeory:null,
 }
 
 export default function(state =  initialState, action){
@@ -11,8 +12,9 @@ export default function(state =  initialState, action){
         case GET_PRODUCT:
             return {
                 ...state,
-                products: action.payload,
+                products: action.payload.product,
                 loading:false,
+                catgeoryName:action.payload.categoryName
             }
         case PRODUCT_lOADING:
              return {
@@ -20,8 +22,7 @@ export default function(state =  initialState, action){
                 loading:true,
                
              }
-
-
+             
         case GET_PRODUCTSINGLE:
             return {
                 ...state,

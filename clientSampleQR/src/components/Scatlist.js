@@ -68,9 +68,8 @@ export class Scatlist extends Component {
                     <CustomeNavbar/>
                     <div className="container-fluid scategory-list">
                     <div className="cat-cusinerel1">
-                    <h5 className="cat-cuisines1 pb-1">Beverage</h5>
+                       <h5 className="cat-cuisines1 pb-1">{this.props.ProductData.catgeoryName}</h5>
                     </div>
-                    
                         <div className="pt-1 cuisines2-bor"></div>
                        {ProductsContent}
                 </div>

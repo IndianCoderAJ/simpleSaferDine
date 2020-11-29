@@ -11,19 +11,7 @@ import  store  from './store';
 import Scategory from'./components/Scategory';
 import Scatlist from'./components/Scatlist';
 import SimpleDescp from './components/SimpleDescp';
-import SafersimpleNavbar from'./components/SafersimpleNavbar';
 
-// import Modal from './components/dashboard/Modal';
-
-// check the Token
-// if(localStorage.authtoken) {
-//   // set Auth header
-//   setAuthToken(localStorage.authtoken);
-//   const decoded = jwt_decoder(localStorage.authtoken);
-//   // store.dispatch(TokenIsValid(decoded));
-//   store.dispatch(setCurrentCustomer(decoded));
-
-// }
 
 function App() {
   return (
@@ -31,7 +19,6 @@ function App() {
     <Router>
     <Route exact path="/" component = { Scategory }/>
     <Route exact path="/scatlist" component = { Scatlist }/>
-    <Route exact path="/safersimpleNavbar" component ={ SafersimpleNavbar}/>
     <Route exact path="/Productdetails"component = {SimpleDescp} />
     </Router>
     </Provider>

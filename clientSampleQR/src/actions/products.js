@@ -12,9 +12,13 @@ export const getProduct = (StartPageNumber,EndPageNumber) => dispatch => {
     axios
     .post(`${process.env.REACT_APP_NODE_API}/customer/getProduct`, data)
     .then(res=>{
+        let data = {
+            categoryName:"General",
+            product:res.data.product
+        }
         dispatch({
             type:GET_PRODUCT,
-            payload:res.data.product
+            payload:data
         })
     })
     .catch(err => {
@@ -51,19 +55,23 @@ export const getSingleProduct = (ProductID,history) => dispatch => {
     });
 }
 
-export const getProductCategory = (StartPageNumber,EndPageNumber,categoryID,history) => dispatch => {
+export const getProductCategory = (StartPageNumber,EndPageNumber,category,history) => dispatch => {
     dispatch(setProductLoading());
     let data = {
         StartPageNumber:StartPageNumber,
         EndPageNumber:EndPageNumber,
-        categoryID:categoryID 
+        categoryID:category._id 
     }
     axios
     .post(`${process.env.REACT_APP_NODE_API}/customer/getProductByCategory`, data)
     .then(res=>{
+        let data = {
+            categoryName:category.categoryName,
+            product:res.data.product
+        }
         dispatch({
             type:GET_PRODUCT,
-            payload:res.data.product
+            payload:data
         });
         history.push('/scatlist');
     })
